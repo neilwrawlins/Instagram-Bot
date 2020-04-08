@@ -48,5 +48,6 @@ class InstaBot:
         self.driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/div/div[2]/button").click()
         return names
 
-my_bot = InstaBot('', '')
+#Must insert username and password
+my_bot = InstaBot('INSERT USERNAME HERE', 'INSERT PASSWORD HERE')
 my_bot.getunfollowers()
